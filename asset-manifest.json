@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wavey/static/css/main.ef37dce3.chunk.css",
+    "main.js": "/wavey/static/js/main.842192d0.chunk.js",
+    "main.js.map": "/wavey/static/js/main.842192d0.chunk.js.map",
+    "runtime-main.js": "/wavey/static/js/runtime-main.97724320.js",
+    "runtime-main.js.map": "/wavey/static/js/runtime-main.97724320.js.map",
+    "static/js/2.c9be945e.chunk.js": "/wavey/static/js/2.c9be945e.chunk.js",
+    "static/js/2.c9be945e.chunk.js.map": "/wavey/static/js/2.c9be945e.chunk.js.map",
+    "static/js/3.c79151da.chunk.js": "/wavey/static/js/3.c79151da.chunk.js",
+    "static/js/3.c79151da.chunk.js.map": "/wavey/static/js/3.c79151da.chunk.js.map",
+    "index.html": "/wavey/index.html",
+    "static/css/main.ef37dce3.chunk.css.map": "/wavey/static/css/main.ef37dce3.chunk.css.map",
+    "static/js/2.c9be945e.chunk.js.LICENSE.txt": "/wavey/static/js/2.c9be945e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/wavey/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97724320.js",
+    "static/js/2.c9be945e.chunk.js",
+    "static/css/main.ef37dce3.chunk.css",
+    "static/js/main.842192d0.chunk.js"
+  ]
+}
