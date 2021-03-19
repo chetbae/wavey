@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+input {
+  margin: 1rem;
+}
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -53,4 +58,10 @@ a:link, a:visited {
 
 a:hover {
   color: black;
+}
+
+canvas {
+  width: 90vw;
+  height: 30vh;
+  margin: 2rem auto;
 }
