@@ -50,8 +50,8 @@ const AudioInput = ({f, setF}: IProps) =>
         const filteredData = [];
 
         for (let i = 0; i < samples; i++) {
-        let blockStart = blockSize * i; // the location of the first sample in the block
-        let sum = 0;
+            let blockStart = blockSize * i; // the location of the first sample in the block
+            let sum = 0;
         for (let j = 0; j < blockSize; j++) {
             sum = sum + Math.abs(rawData[blockStart + j]); // find the sum of all the samples in the block
         }
@@ -88,9 +88,7 @@ const AudioInput = ({f, setF}: IProps) =>
         }
     };
 
-    const drawLine = (ctx: CanvasRenderingContext2D,
-                                x:number,
-                                height:any, width:number, isEven:number) => {
+    const drawLine = (ctx: CanvasRenderingContext2D, x:number, height:any, width:number, isEven:number) => {
         ctx.lineWidth = 900/segments; 
         ctx.strokeStyle = color;
         ctx.beginPath();
@@ -134,8 +132,6 @@ const AudioInput = ({f, setF}: IProps) =>
             </div>
         </div>
     )
-
-    
 }
 
 export default AudioInput;
